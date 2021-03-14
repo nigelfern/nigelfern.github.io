@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Nigel's HCDE 439 Physical Computing Page!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>Nigel's Final Project!</h1>
+            <p>
+              My final project was a device for potted plants that activates LED’s when plants have been exposed to enough sunlight (based on photoresistor readings). 
+              I integrated the Temperature and Humidity module to sense when the plants needed a cooler environment. 
+              I determined that the 78 degrees F was the ideal warning temperature based on my plants' needs and the typical temperature of my bedroom.
+
+            </p>
+            <p>
+              This video demonstrates how the Red LED lights up when the temperature sensor exceeds 78 degrees F and how the Yellow LED turns off when not exposed to sunlight.             
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/21UBvr3kSGo" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             
+              This video shows how once the sensor cools down below 78 degrees, the Red LED turns off. This video also shows use of the photoresistor.
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/z5XAnAFNfds" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+            <p>              
+            Here is all the documentation for assignment 5!
+            <img src="code_final1.jpg" width=400></a>
+            </p>
+        </div>
+        <div>
+            <img src="schematic_final_project.jpg" width=400></a>
+            <p>
+            This is the schematic that shows how I planned out my circuit. My calculations for how I chose my resistor is shown in this image as well.
+            </p>
+
+            <img src="Final_Serial1.jpg" width=400></a>
+            <img src="Final_Serial2.jpg" width=400></a>
+            <img src="Final_Serial3.jpg" width=400></a>
+            <p>
+                These are screenshots from my serial monitor showing how the readings come in and warn if temperature and light reach set amounts
+            </p>
+
+            <img src="prototype1.jpg" width=400></a>
+            <img src="prototype2.jpg" width=400></a>
+            <img src="prototype3.jpg" width=400></a>
+            <p>
+                These are pictures showing how I packaged my arduino and wires into an assembled prototype.
+            </p>
+
+            <img src="circuit_pic_final.jpg" width=400></a>
+            <p>
+            This is my circuit that shows how I configured my breadboard and wires. The image shows how the DHT sensor, LDR, and LEDs are connected on the breadboard. 
+            The multicolored Dupont wires are connected to the LEDs, DHT, and LDR to allow them to be exposed to the user.
+            The black wires go to ground and the white wires connect to power.
+            </p>
+        </div>
+        <a href="Final_Project.ino">Full Arduino code for this assignment</a>
+    </body>
+</html>
